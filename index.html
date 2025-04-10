@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mundo Animal !</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+
+    header {
+      background-color: #66cdaa;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .container {
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.2s;
+  display: flex;
+  flex-direction: column;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 1rem;
+  flex-grow: 1;
+}
+
+.card h3 {
+  margin: 0 0 0.5rem 0;
+  color: #66cdaa;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #e0e0e0;
+  margin-top: 2rem;
+}
+
+  </style>
+</head>
+
+<body>
+  <header>
+
+    <h1>🐾 Mundo Animal !</h1>
+    <p>La definición de "Animal" según la <abbr title="Real Academia Española">RAE</abbr>
+     <em> "Ser orgánico que vive, siente y se mueve por propio impulso."</em>
+    </p>
+  </header>
+  
+  <main class="container">
+  
+    <div class="card">
+      <a href="Europa.html" target="_blank" style="text-decoration: none;">
+        <img src="./img/EU.png" alt="Europa" />
+        <div class="card-content">
+          <h3>Europa</h3>
+          <p>Europa combina la elegancia del alce y la astucia del lobo en sus bosques y montañas.</p>
+        </div>
+      </a>
+    </div>
+  
+    <div class="card">
+      <a href="Asia.html" target="_blank" style="text-decoration: none;">
+        <img src="./img/Asia.png" alt="Asia" />
+        <div class="card-content">
+          <h3>Asia</h3>
+          <p>En Asia, el tigre y el panda representan el contraste entre poder y ternura en sus paisajes diversos.</p>
+        </div>
+      </a>
+    </div>
+  
+    <div class="card">
+      <a href="Africa.html" target="_blank" style="text-decoration: none;">
+        <img src="./img/AFR.png" alt="África" />
+        <div class="card-content">
+          <h3>África</h3>
+          <p>"Las vastas sabanas africanas son el hogar de los 'Cinco Grandes', emblemas de fuerza y majestuosidad."</p>
+        </div>
+      </a>
+    </div>
+  
+    <div class="card">
+      <a href="America.html" target="_blank" style="text-decoration: none;">
+        <img src="./img/Ame.png" alt="America" />
+        <div class="card-content">
+          <h3>América</h3>
+          <p>"El jaguar y el guacamayo llenan de vida los densos bosques tropicales de América del Sur."</p>
+        </div>
+      </a>
+    </div>
+  
+    <div class="card">
+      <a href="Oceania.html" target="_blank" style="text-decoration: none;">
+        <img src="./img/ocea.png" alt="Oceanía" />
+        <div class="card-content">
+          <h3>Oceanía</h3>
+          <p>Canguros y koalas personifican el espíritu único de la fauna australiana.</p>
+        </div>
+      </a>
+    </div>
+  
+    <div class="card">
+      <a href="Antartida.html" target="_blank" style="text-decoration: none;">
+        <img src="./img/ant.png" alt="Antártida" />
+        <div class="card-content">
+          <h3>Antártida</h3>
+          <p>Los pingüinos emperador y las focas se adaptan a las extremas temperaturas del continente helado, simbolizando resistencia y fortaleza.</p>
+        </div>
+      </a>
+    </div>
+
+    <div class="card">
+      <a href="./animalmarino.html" target="_blank" style="text-decoration: none;">
+        <img src="./img/pets.jpg" alt="Animales Domésticos" />
+        <div class="card-content">
+          <h3>Animales Domésticos</h3>
+          <p style="text-align: justify;">Animal de compañía perteneciente a especies que crían y poseen tradicional y habitualmente los seres humanos, 
+            con el fin de vivir en domesticidad en el hogar, así como los de acompañamiento, conducción y ayuda de personas 
+            ciegas o con deficiencia visual grave o severa.<br>
+            <br>Según: <abbr title="Diccionario del español jurídico">DEJ</abbr>
+          </p>
+        </div>
+      </a>
+    </div>
+  
+    <div class="card">
+      <a href="./Pez.html" target="_blank" style="text-decoration: none;">
+        <img src="./img/pez.jpg" alt="Peces" />
+        <div class="card-content">
+          <h3>Tipos de Peces</h3>
+          <p>"De las pequeñas sardinas a los majestuosos tiburones, el reino de los peces es una maravilla de la naturaleza."</p>
+        </div>
+      </a>
+    </div>
+  
+    <div class="card">
+      <a href="./Aves.html" target="_blank" style="text-decoration: none;">
+        <img src="./img/aves.jpg" alt="Aves" />
+        <div class="card-content">
+          <h3>Aves</h3>
+          <p >«Remontó vuelo y se perdió en la altura. Me vino inmediatamente a la memoria aquella vez que Pablo 
+            confidenció que, si hubiera otra vida, le hubiese gustado ser un águila».</p>
+        </div>
+      </a>
+    </div>
+  
+  </main>
+  
+  <footer>
+    &copy;<em>Desarrollo de Servicios. Práctica 1_ Página Web</em>
+  </footer>
+  
+
+</body>
+</html>

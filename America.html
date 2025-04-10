@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>América - Mundo Animal</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+</head>
+<body>
+    <header>
+        <h1>Animales Típicos de América</h1>
+        <p>América es un continente rico en biodiversidad, desde las selvas tropicales hasta las montañas rocosas.</p>
+    </header>
+    <main>
+        <!-- Imagen del mapa de América -->
+        <div class="map-container">
+            <img src="images.jpg/mapa_america.jpg" alt="Mapa de América" class="map-image">
+        </div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="europa.html">Europa</a></li>
+            <li><a href="antartida.html">Antártida</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Ejemplos de Animales Americanos</h2>
+        <div class="animal-container">
+            <!-- Jaguar -->
+            <div class="animal">
+                <div class="click-indicator">🔍 Haz clic en la foto para ver más texto</div>
+                <img src="images.jpg/jaguar.jpg" alt="Jaguar" onclick="toggleText('jaguar-details')">
+                <h3>Jaguar</h3>
+                <p class="summary">El jaguar es el felino más grande de América.</p>
+                <p id="jaguar-details" class="hidden-text">
+                    El jaguar es un depredador poderoso y ágil que se encuentra en las selvas tropicales de América Central y del Sur. Es el tercer felino más grande del mundo, después del tigre y el león. Su característica distintiva es su hermoso pelaje con manchas negras en forma de rosetas, que le permite camuflarse en su entorno. El jaguar es un cazador solitario y oportunista, capaz de cazar tanto en tierra como en el agua. Su dieta incluye una amplia variedad de presas, como ciervos, capibaras, peces e incluso caimanes. Este animal también tiene un papel cultural importante, siendo considerado sagrado por muchas civilizaciones indígenas.
+                </p>
+            </div>
+        
+            <!-- Águila Calva -->
+            <div class="animal">
+                <div class="click-indicator">🔍 Haz clic en la foto para ver más texto</div>
+                <img src="images.jpg/aguila_calva.jpg" alt="Águila Calva" onclick="toggleText('aguila-details')">
+                <h3>Águila Calva</h3>
+                <p class="summary">Símbolo nacional de Estados Unidos.</p>
+                <p id="aguila-details" class="hidden-text">
+                    El águila calva es un ave rapaz de gran tamaño que habita principalmente en América del Norte. Su nombre proviene de la apariencia blanca de su cabeza, que contrasta con su cuerpo oscuro. Es conocida por su extraordinaria visión, que le permite detectar presas desde grandes alturas. Su dieta consiste principalmente en peces, aunque también caza pequeños mamíferos y aves. Vive cerca de ríos, lagos y costas, donde encuentra abundante alimento. Además, el águila calva es un símbolo de libertad y fuerza, siendo el emblema nacional de los Estados Unidos desde 1782.
+                </p>
+            </div>
+        
+            <!-- Puma -->
+            <div class="animal">
+                <div class="click-indicator">🔍 Haz clic en la foto para ver más texto</div>
+                <img src="images.jpg/puma.jpg" alt="Puma" onclick="toggleText('puma-details')">
+                <h3>Puma</h3>
+                <p class="summary">Un depredador versátil encontrado en América.</p>
+                <p id="puma-details" class="hidden-text">
+                    El puma, también conocido como león de montaña o pantera, es uno de los felinos más adaptables del continente americano. Este depredador es conocido por su sigilo y fuerza, lo que le permite cazar presas mucho más grandes que él, como ciervos y alces. Habita en una variedad de ecosistemas, desde bosques templados hasta desiertos y montañas. A pesar de ser un excelente cazador solitario, el puma es un animal tímido y evita el contacto humano. Su capacidad para adaptarse a diferentes hábitats lo convierte en un símbolo de resiliencia en la fauna americana.
+                </p>
+            </div>
+        </div>        
+        
+    </main>
+    <footer>
+        &copy;<em>Desarrollo de Servicios. Práctica 1_ Página Web</em>
+      </footer>
+    <script src="js/script.js" defer></script>
+</body>
+</html>

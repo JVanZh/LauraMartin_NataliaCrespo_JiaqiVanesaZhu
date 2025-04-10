@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peces</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-image: url(./img/pez.jpg);
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .animal {
+            margin-bottom: 40px;
+        }
+        .animal img {
+            width: 50%;
+            max-width: 600px;
+            display: block;
+            margin: 20px auto;
+            border-radius: 8px;
+        }
+        .animal h2 {
+            color: #2F4F4F;
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+        }
+
+        .animal-placeholder {
+        background-color: #e0e0e0;
+        width: 100px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 8px;
+        color: #666;
+        font-size: 14px;
+        }
+    
+        footer {
+        text-align: center;
+        padding: 1rem;
+        background-color: #e0e0e0;
+        margin-top: 2rem;
+        }
+
+        .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 2rem;
+        background-color: #1c1c1e; 
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        
+      .navbar .logo {
+        font-size: 1.8rem;
+        font-weight: bold;
+        color: #B22222;
+        text-decoration: none;
+        }
+
+      .navbar ul {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        }
+
+      .navbar ul li {
+        margin-left: 2rem;
+        }
+
+      .navbar ul li a {
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 1rem;
+        font-weight: 500;
+        padding: 0.5rem 1rem;
+        border-radius: 20px;
+        transition: all 0.3s ease;
+        }
+
+      .navbar ul li a:hover {
+        background-color: #B22222; 
+        color: #1c1c1e; 
+        }
+
+      .hero {
+        height:50vh;
+        background: linear-gradient(135deg, #CD5C5C, #B22222);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: white;
+        }
+
+      .hero h1 {
+        font-size: 3rem;
+        margin: 0;
+        }
+
+      .hero p {
+        font-size: 1.5rem;
+        margin: 1rem 0 0;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Peces</h1>
+        <p>Conoce sus diferentes carácteristicas</p>
+    </header>
+
+    <nav class="navbar">
+        <a href="#" class="logo">Mi Página</a>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#Contenido">Contenido</a></li>
+          <li><a href="./index.html">Página principal</a></li>
+          <li><a href="./Aves.html">Siguiente</a></li>
+        </ul>
+      </nav>
+    
+      <section class="hero" id="inicio">
+        <div class="video">
+          <iframe 
+            src="https://www.youtube.com/embed/sfWqabJ-bcE" 
+            title="Video de YouTube" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+          </iframe>
+
+        </div>
+        <div class="content">
+          <h1>Explora contenidos de interés</h1>
+          <p>Documental: Los colores del agua</em></p>
+        </div>
+      </section>
+      
+    
+      <section id="Contenido">
+        <h2>Contenido: <strong style="size: 1000em;">𓆟𓆟𓆟</strong></h2>
+      </section>
+    
+    <section>
+
+    <section>
+        <div class="animal">
+            <h2>Pez Betta</h2>
+            <img src="img/beta.jpg" alt="Lion">
+            <p>
+                El pez luchador siamés (Betta splendens), comúnmente conocido como betta, 
+                es un pez de agua dulce originario del sudeste asiático, concretamente Camboya, Laos, Myanmar, Malasia, 
+                Indonesia, Tailandia y Vietnam.  Es una de las 73 especies del género Betta, pero la única que 
+                lleva el mismo nombre "betta", debido a su popularidad mundial como mascota; Betta splendens se encuentra entre 
+                los peces de acuario más populares del mundo, debido a su morfología diversa y colorida y a su relativamente bajo 
+                mantenimiento. <br>
+                <br>Más información en: <a href="https://es.wikipedia.org/wiki/Betta_splendens">wikipedia sobre Pez Betta</a>
+
+            </p>
+        </div>
+
+        <div class="animal">
+            <h2>Pez Guppy</h2>
+            <img src="img/guppy.jpg" alt="Elephant">
+            <p>El guppy, lebistes o pez millón (Poecilia reticulata) es un pez ovovivíparo de agua dulce 
+                procedente de Sudamérica que habita en zonas de corriente baja de ríos, lagos y charcas. 
+                Es muy conocido en el mundo de la acuariofilia puesto que su cuidado no ofrece grandes dificultades 
+                y se reproduce con muchísima facilidad.</p> 
+                <br>Más información en: <a href="https://es.wikipedia.org/wiki/Poecilia_reticulata">wikipedia sobre Pez Gruppy</a>
+
+        <div class="animal">
+            <h2>Pez Tetra Neón</h2>
+            <img src="img/tetra-neon.jpg" alt="Dolphin">
+            <p>El tetra neón (Paracheirodon innesi) es una especie de pez actinopterigio carácido originario del oeste de Sudamérica. 
+                Es una especie muy apreciada en acuariofilia. Apreciados por su carácter pacífico, su llamativo colorido y sus 
+                desplazamientos en cardumen, dan movimiento y vida a todo acuario.</p>
+            Más información en: <a href="https://es.wikipedia.org/wiki/Paracheirodon_innesi">wikipedia sobre Pez Tetra Neón</a>
+
+            
+
+        </div>
+        <section>
+            <div class="animal">
+                <h2>Página interesante:<a href="https://www.fishipedia.es/pez/betta-splendens">Fishpedia</a></h2>
+            </div>
+        </section>
+
+    </section>
+     
+  <footer>
+    &copy;<em>Desarrollo de Servicios. Práctica 1_ Página Web</em>
+  </footer>
+
+</body>
+</html>

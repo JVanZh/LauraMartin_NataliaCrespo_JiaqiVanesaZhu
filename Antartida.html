@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antártida - Mundo Animal</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+</head>
+<body>
+    <header>
+        <h1>Animales Típicos de la Antártida</h1>
+        <p>La Antártida es un continente único, hogar de especies adaptadas al frío extremo, como pingüinos, focas y ballenas.</p>
+    </header>
+    <main>
+        <!-- Imagen del mapa de la Antártida -->
+        <div class="map-container">
+            <img src="images.jpg/mapa_antartida.jpg" alt="Mapa de la Antártida" class="map-image">
+        </div>
+    </main>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="europa.html">Europa</a></li>
+            <li><a href="america.html">América</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Ejemplos de Animales Antárticos</h2>
+        <div class="animal-container">
+            <!-- Pingüino Emperador -->
+            <div class="animal">
+                <div class="click-indicator">🔍 Haz clic en la foto para ver más texto</div>
+                <img src="images.jpg/pinguino_emperador.jpg" alt="Pingüino Emperador" onclick="toggleText('pinguino-details')">
+                <h3>Pingüino Emperador</h3>
+                <p class="summary">El pingüino emperador es el más grande de su especie y puede sobrevivir a temperaturas extremas bajo cero.</p>
+                <p id="pinguino-details" class="hidden-text">
+                    El pingüino emperador es el único pingüino que se reproduce durante el invierno antártico, enfrentando temperaturas de hasta -60°C y vientos de más de 100 km/h. Su dieta se basa principalmente en peces, calamares y krill, los cuales caza con gran habilidad bajo el agua. Este pingüino puede bucear hasta profundidades de 500 metros y permanecer sumergido durante más de 20 minutos, lo que lo convierte en uno de los mejores cazadores entre las aves marinas.
+                </p>
+            </div>
+
+            <!-- Foca de Weddell -->
+            <div class="animal">
+                <div class="click-indicator">🔍 Haz clic en la foto para ver más texto</div>
+                <img src="images.jpg/foca_weddell.jpg" alt="Foca de Weddell" onclick="toggleText('foca-details')">
+                <h3>Foca de Weddell</h3>
+                <p class="summary">La foca de Weddell es conocida por su capacidad para vivir bajo el hielo.</p>
+                <p id="foca-details" class="hidden-text">
+                    La foca de Weddell es una especie adaptada a las condiciones extremas del hielo antártico. Utiliza sus dientes para mantener agujeros respiratorios en el hielo, lo que le permite sobrevivir en un entorno hostil. Se alimenta principalmente de peces y calamares que encuentra bajo el hielo.
+                </p>
+            </div>
+
+            <!-- Ballena Jorobada -->
+            <div class="animal">
+                <div class="click-indicator">🔍 Haz clic en la foto para ver más texto</div>
+                <img src="images.jpg/ballena_jorobada.jpg" alt="Ballena Jorobada" onclick="toggleText('ballena-details')">
+                <h3>Ballena Jorobada</h3>
+                <p class="summary">La ballena jorobada migra a las aguas antárticas en busca de krill.</p>
+                <p id="ballena-details" class="hidden-text">
+                    La ballena jorobada es una especie migratoria que visita las aguas antárticas durante el verano para alimentarse. Utiliza técnicas únicas como la red de burbujas para atrapar grandes cantidades de krill, su principal fuente de alimento. Estas ballenas son conocidas por sus impresionantes saltos fuera del agua.
+                </p>
+            </div>
+
+            <!-- Leopardo Marino -->
+            <div class="animal">
+                <div class="click-indicator">🔍 Haz clic en la foto para ver más texto</div>
+                <img src="images.jpg/leopardo_marino.jpg" alt="Leopardo Marino" onclick="toggleText('leopardo-details')">
+                <h3>Leopardo Marino</h3>
+                <p class="summary">El leopardo marino es un depredador ágil que se alimenta de pingüinos.</p>
+                <p id="leopardo-details" class="hidden-text">
+                    El leopardo marino es uno de los principales depredadores del ecosistema antártico. Con su cuerpo aerodinámico y fuertes mandíbulas, caza pingüinos y focas más pequeñas. Aunque pasa la mayor parte del tiempo en el agua, también descansa sobre los bloques de hielo flotantes.
+                </p>
+            </div>
+
+            <!-- Krill Antártico -->
+            <div class="animal">
+                <div class="click-indicator">🔍 Haz clic en la foto para ver más texto</div>
+                <img src="images.jpg/krill.jpg" alt="Krill Antártico" onclick="toggleText('krill-details')">
+                <h3>Krill Antártico</h3>
+                <p class="summary">El krill es la base de la cadena alimenticia en la Antártida.</p>
+                <p id="krill-details" class="hidden-text">
+                    El krill antártico es un pequeño crustáceo clave en el ecosistema marino. Sirve como alimento principal para muchas especies, incluidas ballenas, pingüinos y focas. Su abundancia hace posible la vida en este entorno extremo.
+                </p>
+            </div>
+        </div>        
+    </main>
+    <footer>
+        &copy;<em>Desarrollo de Servicios. Práctica 1_ Página Web</em>
+      </footer>
+    <script src="js/script.js" defer></script>
+</body>
+</html>

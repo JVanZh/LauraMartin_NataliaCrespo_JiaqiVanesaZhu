@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Europa - Mundo Animal</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+</head>
+<body>
+    <header>
+        <h1>Animales Típicos de Europa</h1>
+        <p>Europa alberga una gran diversidad de hábitats que incluyen bosques, montañas y tundras.</p>
+    </header>
+    <main>
+        <!-- Imagen del mapa de Europa -->
+        <div class="map-container">
+            <img src="images.jpg/mapa_europa.jpg" alt="Mapa de Europa" class="map-image">
+        </div>
+    </main>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="america.html">América</a></li>
+            <li><a href="antartida.html">Antártida</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Ejemplos de Animales Europeos</h2>
+        <div class="animal-container">
+            <!-- Lobo Europeo -->
+            <div class="animal">
+                <div class="click-indicator">🔍 Haz clic en la foto para ver más texto</div>
+                <img src="images.jpg/lobo_europeo.jpg" alt="Lobo Europeo" onclick="toggleText('lobo-details')">
+                <h3>Lobo Europeo</h3>
+                <p class="summary">El lobo europeo es un depredador clave en los ecosistemas europeos.</p>
+                <p id="lobo-details" class="hidden-text">
+                    El lobo europeo es un símbolo de fuerza y resiliencia en Europa. Vive en bosques y montañas, donde forma manadas organizadas para cazar presas como ciervos y jabalíes. Aunque históricamente fue perseguido, su población ha comenzado a recuperarse gracias a programas de conservación.
+                </p>
+            </div>
+
+            <!-- Oso Pardo -->
+            <div class="animal">
+                <div class="click-indicator">🔍 Haz clic en la foto para ver más texto</div>
+                <img src="images.jpg/oso_pardo.jpg" alt="Oso Pardo" onclick="toggleText('oso-details')">
+                <h3>Oso Pardo</h3>
+                <p class="summary">Uno de los mamíferos más grandes de Europa.</p>
+                <p id="oso-details" class="hidden-text">
+                    El oso pardo es un mamífero imponente que habita en áreas montañosas y bosques densos. Es un animal omnívoro, cuya dieta incluye frutas, raíces, insectos y ocasionalmente carne. Su capacidad para adaptarse a diferentes hábitats lo convierte en una especie emblemática.
+                </p>
+            </div>
+
+            <!-- Ciervo Rojo -->
+            <div class="animal">
+                <div class="click-indicator">🔍 Haz clic en la foto para ver más texto</div>
+                <img src="images.jpg/ciervo_rojo.jpg" alt="Ciervo Rojo" onclick="toggleText('ciervo-details')">
+                <h3>Ciervo Rojo</h3>
+                <p class="summary">Un símbolo de la fauna europea.</p>
+                <p id="ciervo-details" class="hidden-text">
+                    El ciervo rojo es conocido por su imponente cornamenta, que los machos desarrollan cada año. Habita en bosques y praderas, donde se alimenta principalmente de hierba y hojas. Es una especie clave en los ecosistemas europeos debido a su papel en la dispersión de semillas.
+                </p>
+            </div>
+        </div>        
+    </main>
+    <footer>
+        &copy;<em>Desarrollo de Servicios. Práctica 1_ Página Web</em>
+      </footer>
+    <script src="js/script.js" defer></script>
+</body>
+</html>
