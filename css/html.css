@@ -1,0 +1,130 @@
+
+/*Estilo CSS de Aves, Peces y Animales domésticos*/
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  header {
+    background-image: url(img/ovejas-lote.webp);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+  }
+
+  .animal img {
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 8px;
+    }
+    
+  .animal img {
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 8px;
+    }
+
+  .animal h2 {
+    color: #2F4F4F;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    }
+
+  .animal-placeholder {
+    background-color: #e0e0e0;
+    width: 200px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    color: #666;
+    font-size: 14px;
+    }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #1c1c1e; 
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    
+  .navbar .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #66cdaa;
+    text-decoration: none;
+    }
+
+  .navbar ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+
+  .navbar ul li {
+    margin-left: 2rem;
+    }
+
+  .navbar ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    }
+
+  .navbar ul li a:hover {
+    background-color: #66cdaa; 
+    color: #1c1c1e; 
+    }
+
+  .hero {
+    height:50vh;
+    background: linear-gradient(135deg, #66cdaa, #004d40);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    }
+
+  .hero h1 {
+    font-size: 3rem;
+    margin: 0;
+    }
+
+  .hero p {
+    font-size: 1.5rem;
+    margin: 1rem 0 0;
+    }
+
+    
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #e0e0e0;
+    margin-top: 2rem;
+  }
