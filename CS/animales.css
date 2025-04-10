@@ -1,0 +1,194 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5DC ; 
+    color: #000000;
+}
+
+.cabecera_Asia {
+    text-align: center;
+    background-color: #239649;
+    padding: 20px;
+    border-bottom: 3px solid #239649; 
+    color: white; 
+}
+
+.cabecera_Oceania {
+    text-align: center;
+    background-color: #B75E41 ;
+    padding: 20px;
+    border-bottom: 3px solid #B75E41; 
+    color: white;
+}
+
+.cabecera_Africa {
+    text-align: center;
+    background-color: #C2B280 ;
+    padding: 20px;
+    border-bottom: 3px solid #C2B280 ; 
+    color : white ;
+}
+
+.hidden-text {
+    display: none;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 10px;
+    background-color: #9b0909;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #060705;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2em;
+    color: #082135;
+}
+
+.animales_Asia {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.animales_Africa {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.animales_Oceania {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.animal {
+    background-color: #fffffd;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    border: 1px dashed #9b0909;
+}
+
+.animal img {
+    width: 80%;
+    height: auto;
+}
+
+.animal h3 {
+    font-size: 1.5em;
+    color: #9b0909 ;
+}
+
+.animal p {
+    padding: 10px;
+}
+
+.imagenes_mapa  {
+    width: 100%;
+    height: 300px; 
+    object-fit: cover; 
+    display: block;
+}
+
+.imagenes_mapa {
+    width: 100%;
+    overflow: hidden; 
+}
+
+.final_Africa {
+    text-align: center;
+    padding: 10px;
+    background-color: #C2B280;
+    color: white ;
+}
+
+.final_Asia {
+    text-align: center;
+    padding: 10px;
+    background-color: #239649;
+    color : white ; 
+}
+
+.final_Oceania {
+    text-align: center;
+    padding: 10px;
+    background-color: #B75E41 ;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .animales_Africa {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 15px;
+    }
+    .animales_Asia {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 15px;
+    }
+    .animales_Oceania {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 15px;
+    }
+}
+
+
+
+.plus_informacion{
+    background-color: #e2cb9f ;
+    color: rgb(31, 30, 30);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    max-width: 700px;
+    margin: 20px auto;
+    color :#141111 ;
+    color: #000000;
+}
+
+.titulo_sabias {
+    color:  rgb(234, 241, 176); 
+    font-size: 2em;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+.titulo{
+    color: rgb(234, 241, 176) ; 
+    font-size: 2em;
+    margin-right: 15px;
+    font-weight: bold;
+}
